@@ -1,3 +1,4 @@
+import json
 import requests
 from bs4 import BeautifulSoup
 
@@ -38,13 +39,7 @@ with open('books.json', 'w') as f:
 
     json.dump(all_books, f, indent=2, ensure_ascii = False)
     #same in csv
-    import csv
-
-with open("books.csv", "w", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["title", "currency", "price"])
-    for book in all_books:
-        writer.writerow([book["title"], book["currency"], book["price"]])
+    
 
 # python -m pip install requests
 # => get data from web (html, json , xml)
