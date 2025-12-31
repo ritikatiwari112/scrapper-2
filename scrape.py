@@ -51,10 +51,15 @@ with open("books.csv", "w", newline="", encoding="utf-8") as f:
 #python -m pip install beautifulsoup4
 # => parse html
 
-
+# first time
  #install git
 # git config --global user.name"ritikatiwari112"
-#git config --global user.name "ritikatiwaree@gmail.com"
+#git config --global user.email "ritikatiwaree@gmail.com"
+
+#Always
+#git dd .
+# git commit -m "Your message"
+
 
 
    
