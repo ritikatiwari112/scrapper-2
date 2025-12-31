@@ -57,8 +57,20 @@ with open("books.csv", "w", newline="", encoding="utf-8") as f:
 #git config --global user.email "ritikatiwaree@gmail.com"
 
 #Always
-#git dd .
-# git commit -m "Your message"
+#git add .
+#git commit -m "Your message"
+
+###################################
+# change the code
+# git add .
+#git commit -m "Your message"
+# git push
+###################################
+
+
+
+
+
 
 
 
